@@ -1,5 +1,36 @@
+
+
 .App {
   text-align: center;
+}
+
+.conteiner{
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.title{
+  display: flex;
+  color:#ffff;
+  font-size: 2em;
+  font-weight: bold;  
+  background-color: cadetblue;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; /* Bordes redondeados */
 }
 
 .App-logo {
@@ -7,21 +38,53 @@
   pointer-events: none;
 }
 
+.users{
+  display: flex;
+  background-color: cadetblue;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; /* Bordes redondeados */
+  color: white;
+  margin-bottom: 0;
+}
+
+.fondo{
+  background-image: url('../src/1.jpeg'); /* Reemplaza con la ruta correcta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  height: 100vh;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.table{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c70808;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(212, 54, 54);
+}
+
+.notify {
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 1rem;
 }
 
 .App-link {
